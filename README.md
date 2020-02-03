@@ -13,7 +13,14 @@ In the course material from the Machine Learning Career Pathway lesson at the AW
 
 ## Projects:
 
-### 1. Sentiment analysis app deployment on AWS
+### 1. AWS service control
+
+In this notebook [AWS-SDK-for-python-boto3](https://github.com/bkocis/bertelsmann-dsml-group-projects/blob/master/Project-boto/AWS-SDK-for-python-boto3.ipynb), the boto library is used to execute creation, deletion, adding files, manage permission for an S3 bucket. Furthermore, it show how to incorporate file listing and html generation using pandas, as well as demonstration of data visualization in bokeh with html conversion. 
+
+In this notebook, the AWS Rekognite service is utilized in combination with S3 and boto. A front-end part is yet to be added for simple presentation of the results of image classification.
+[AWS-boto3-AWS-Rekognite](https://github.com/bkocis/bertelsmann-dsml-group-projects/blob/master/Project-boto/AWS-boto3-AWS-Rekognite.ipynb)
+
+### 2. Sentiment analysis app deployment on AWS (in-progress)
 
 [Project_AWS_Sagemaker](https://github.com/bkocis/bertelsmann-dsml-group/tree/master/Project_AWS_Sagemaker) - Code from the Deep Learning Nanodegree program.
 
@@ -27,4 +34,7 @@ Introduction:
 Setting up jupyter notebooks:
 [Building a model using SageMaker - L2-4](https://www.youtube.com/watch?time_continue=147&v=TRUCNy5Eqjc&feature=emb_logo)
 
+Video tutorial from Udacity:
 [Cloning a repo to SageMaker](https://www.youtube.com/watch?time_continue=76&v=jqL74whe9yo&feature=emb_logo)
+
+### 3. Image captioning app deployment on AWS (in-progress) 
